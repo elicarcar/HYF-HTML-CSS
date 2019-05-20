@@ -1,0 +1,213 @@
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  background-color:#AFAB85;
+  font-family: "Poor Richard", cambria;
+  text-align:center;
+  margin:0px 90px;
+ }
+
+#whole-page{
+  background-color:#FCFBDC;
+  border-left:1px solid black;
+  border-right:1px solid black;
+  
+}
+
+h1{
+  margin:0px;
+  background-color:#2A2828;
+  color:#ffff;
+  padding:30px;
+  border-bottom:2px solid #4f4849;
+  font-weight:bold;
+  font-size:60px;
+}
+
+#navigation-bar{
+  background-color:black;
+  position:sticky;
+  top:0px;
+  overflow:hidden;
+  margin-bottom:50px;
+  margin-top:0px;
+  padding-top:10px;
+  border-radius:0% 0% 10% 10%;
+  border-bottom:2px solid;
+  color:#3E362F;
+  list-style-type:none;
+ }
+
+#navigation-bar li{
+  float:left;
+  width:200px;
+  margin:auto;
+  font-size:30px;
+  font-weight:bold;
+  padding:10px;
+  margin-bottom:15px;
+ }
+
+.internal-links{
+  text-decoration:none;
+  text-shadow:1px 2px #3E1B1B;
+ }
+
+.sources,.internal-links:link{
+  color:white;
+}
+
+.sources,.internal-links:visited{
+  color:white;
+}
+
+.internal-links:hover{
+  background-color:#9D9A9A;
+  color:beige;
+  border-radius:30% 30% 30% 30%;
+}
+
+h2{
+  background-color:#7F0000;
+  color:white;
+  font-size:3em;
+  text-shadow:1px 2px black;
+  padding-top:20px;
+  border-top:4px solid #690000;
+  border-bottom:4px solid #690000;
+  padding-bottom:30px;
+  border-radius:10% 10% 10% 10%;
+ }
+
+#paragraph-div{
+  margin:40px;
+}
+
+.paragraph{
+  font-size:21px;
+  text-align:justify;
+  margin-left:15px;
+  margin-right:15px;
+}
+
+#logo-a24{
+  float:left;
+  width:15%;
+  margin-left:15px;
+  margin-right:15px;
+  border:2px inset grey;
+}
+
+#katz-fenkel-hodges{
+  float:right;
+  width:20%;
+  margin-top:5px;
+  margin-left:15px;
+  margin-bottom:0px;
+  
+}
+
+table{
+  width:90%;
+  margin:auto;
+  border-collapse:collapse;
+  border-spacing:0px;
+}
+
+th,td{
+  border:1px solid #65594D;
+  font-family:helvetica;
+}
+
+th{
+  height:50px;
+  font-size:1.5em;
+  background-color:#A6A6A5;
+}
+
+td{
+  height:40px;
+  background-color:#F7F7F7;
+}
+
+.names-of-shows:hover{
+  background-color:#D5CFA7;
+}
+
+.external-links, .warnings{
+  text-decoration:none;
+  font-weight:bold;
+}
+
+.external-links, .warnings:link{
+  color:black;
+}
+
+.external-links:visited{
+  color:black;
+}
+
+.external-links:hover{
+  color:brown;
+}
+
+.warning-paragraphs{
+  font-size:20px;
+  font-weight:bold;
+}
+
+span{
+  font-size:1.5em;
+  font-weight:bold;
+  color:white;
+  background-color:#AE0000;
+  border-radius:15% 15% 15% 15%;
+}
+
+
+
+.films{
+  width:250px;
+  height:400px;
+  margin:10px;
+  border:3px outset black;
+}
+
+#movie-trailers-div{
+  margin:100px;
+ }
+
+iframe{
+  margin:10px;
+  border:2px dashed black;
+}
+
+#articles-24,#article-explanation{
+  font-size:1.5em;
+}
+
+#articles-24{
+  padding-bottom:60px;
+  font-weight:bold;
+  line-height:50px;
+  list-style-type:none;
+ }
+
+.li-articles:link{
+  color:black;
+  
+}
+
+.li-articles:visited{
+  color:black;
+}
+
+footer{
+  background-color:#2A2828;
+  font-family:"Lucida Bright",serif;
+  padding:15px;
+  color:white;
+  font-size:15px;
+}
