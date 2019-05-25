@@ -1,0 +1,446 @@
+
+        html {
+            scroll-behavior: smooth;
+
+        }
+
+        body {
+
+            position: relative;
+            max-width: 1080px;
+            font-family: 'Muli', cambria;
+            word-wrap: break-word
+        }
+
+
+
+        /* --NAV-BAR STARTS-- */
+
+
+        .navigation-bar {
+            background: linear-gradient(to bottom, #eedce6 0%, #ffffff 80%);
+            position: fixed;
+            top: 0px;
+            width: 100%;
+            text-align: right;
+            background-color: rgba(240, 214, 232, 0.753);
+
+
+
+        }
+
+        .navigation-bar li {
+            display: inline-block;
+            list-style-type: none;
+            margin-right: 15px;
+            padding: 10px;
+            right: 0px;
+            transition: all 1s;
+
+        }
+
+
+
+
+
+        a:link {
+            color: rgb(66, 26, 58);
+            text-decoration: none;
+
+        }
+
+        a:visited {
+            color: rgb(66, 26, 58);
+        }
+
+
+        .navigation-bar li:hover {
+            color: rgb(66, 26, 58);
+            font-size: 17px;
+            border-top: 3px solid rgb(66, 26, 58);
+        }
+
+
+
+        /* MEDIA QUERIES FOR NAVIGATION BAR STARTS */
+
+        @media screen and (max-width:900px) {
+            .navigation-bar {
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                right: 0px;
+                display: flex;
+                flex-direction: column;
+                right: 0px;
+            }
+        }
+
+
+        @media screen and (max-width:550px) {
+            .navigation-bar {
+                position: fixed;
+                top: 0px;
+                width: 100%;
+                right: 0px;
+
+
+            }
+        }
+
+        @media screen and (max-width:550px) {
+            .navigation-bar li {
+                transition: none;
+                font-size: 14px;
+
+
+            }
+        }
+
+
+
+        @media screen and (max-width:550px) {
+            .navigation-bar li:hover {
+                transition: none;
+                font-size: 14px;
+                border-top: 1px solid rgb(66, 26, 58);
+
+
+            }
+        }
+
+        /* --NAV-BAR ENDS-- */
+        /* MEDIA QUERIES FOR NAVIGATION BAR ENDS */
+
+
+
+
+
+
+
+
+
+        /*--SIDE CONTENT STARTS-- */
+        .gd-container {
+            background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(213, 129, 193, 0.7175245098039216) 50%, rgba(255, 255, 255, 1) 100%);
+            position: relative;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            width: 20%;
+            margin-top: 100px;
+            margin-left: 20%;
+            padding: 10px;
+            border-left: 2px solid rgba(85, 71, 82, 0.815);
+            border-right: 2px solid rgba(85, 71, 82, 0.815);
+            z-index: -1;
+
+
+
+
+
+        }
+
+
+
+        @media screen and (min-width:900px) {
+            .gd-container {
+                width: 30%;
+            }
+        }
+
+
+        @media screen and (max-width:900px) {
+            .gd-container {
+                width: 18%;
+            }
+        }
+
+
+
+        @media screen and (max-width:620px) {
+            .gd-container {
+                width: 20%;
+                top: 0px;
+                font-size: 10px;
+            }
+        }
+
+
+
+
+
+        @media screen and (max-width:620px) {
+            .gd-container {
+                display: none;
+
+            }
+        }
+
+        .cv-image {
+            width: 50%;
+            margin: 10px;
+            margin-left: 25%;
+            border: 1px solid rgba(85, 71, 82, 0.815);
+            border-radius: 5%;
+
+        }
+
+        @media screen and (max-width:550px) {
+            .cv-image {
+                display: none;
+            }
+        }
+
+        h3 {
+            font-family: 'Barlow', serif;
+        }
+
+        h3,
+        h4 {
+            text-align: center;
+            margin: 0px;
+            font-size: 1.5em;
+
+        }
+
+
+
+
+        h5 {
+            color: rgba(85, 71, 82, 0.815);
+            font-size: 15px;
+            margin: 0px;
+            padding: 5px;
+            text-decoration-line: underline;
+            text-decoration-color: black;
+
+
+        }
+
+
+
+        .section-item {
+            background: radial-gradient(rgba(228, 185, 219, 0.308), rgba(245, 222, 236, 0.911), rgba(250, 183, 240, 0.788));
+            width: 50%;
+            margin: auto;
+            margin-top: 20px;
+            margin-bottom: 40px;
+            padding: 15px;
+            border: 3px solid rgba(228, 185, 219, 0.308);
+            border-radius: 45%;
+            box-shadow: 2px 3px 2px 3px rgba(85, 71, 82, 0.815);
+
+
+        }
+
+
+        .section-item p {
+            text-align: center;
+            text-decoration-line: underline;
+        }
+
+        /*--SIDE CONTENT ENDS-- */
+
+        /* SECOND SIDE-CONTENT STARTS */
+        .second-side-menu {
+            display: none;
+            width: 40%;
+
+        }
+
+        #side-content-2 {
+            width: 40%;
+            position: fixed;
+            top: 90px;
+
+        }
+
+
+        .inner-info,
+        .inner-lists {
+            margin: 0px;
+            padding: 30px;
+            color: white;
+            text-decoration: none;
+            list-style-type: none;
+        }
+
+        .inner-info {
+            list-style-type: none;
+        }
+
+
+        .inner-lists {
+            border-bottom: 1px dotted black;
+            text-transform: uppercase;
+            letter-spacing: .5em;
+
+        }
+
+        .inner-lists:hover {
+            background-color: rgba(85, 71, 82, 0.164);
+        }
+
+        .inner-info {
+            margin-bottom: 20px;
+
+            font-size: 10px;
+        }
+
+        #side-content-2 ul {
+            display: none;
+        }
+
+        #side-content-2 .inner-lists:hover ul {
+            display: block;
+            height: 70px;
+        }
+
+        @media screen and (max-width:620px) {
+            .second-side-menu {
+                display: block;
+
+            }
+        }
+
+
+
+
+        /* SECOND SIDE CONTENT ENDS */
+
+
+
+
+
+
+
+
+        /* --CV-DETAILS STARTS */
+
+        .cv-details {
+            display: flex;
+            flex-direction: column;
+            float: right;
+            width: 800px;
+            margin-top: 100px;
+            margin-right: 10px;
+            padding: 25px;
+        }
+
+
+        /* MEDIA QUERIES FOR CV-DETAILS STARTS */
+
+        @media screen and (min-width:900px) {
+            .cv-details {
+                width: 40%;
+
+            }
+        }
+
+
+        @media screen and (max-width:899px) {
+            .cv-details {
+                width: 50%;
+            }
+        }
+
+        @media screen and (max-width:720px) {
+            .cv-details {
+                width: 35%;
+                margin: auto;
+                margin-top: 100px;
+                background: linear-gradient(to top, #e9c0d6 0%, #ffffff 100%);
+
+            }
+        }
+
+
+        @media screen and (max-width:550px) {
+            .cv-details {
+                width: 40%;
+                margin-top: 100px;
+                background: linear-gradient(to top, #e9c0d6 0%, #ffffff 100%);
+
+            }
+        }
+
+        /* MEDIA QUERIES FOR CV-DETAILS ENDS */
+
+        #par-img {
+            width: 30%;
+            display: none;
+            float: left;
+            margin: 5px;
+
+
+        }
+
+        @media screen and (max-width:720px) {
+            #par-img {
+                display: inline;
+            }
+        }
+
+
+
+        .article-item {
+            margin-bottom: 70px;
+        }
+
+        .article-item h2 {
+            border-bottom: 1px solid black;
+        }
+
+
+        span {
+            color: rgb(83, 15, 69);
+        }
+
+        #cv-education p {
+            color: rgb(114, 98, 110);
+        }
+
+        .education-anchor:link {
+            color: rgb(83, 15, 69);
+            font-weight: bold;
+        }
+
+        .education-anchor:hover {
+            text-decoration-line: underline;
+            text-decoration-color: rgb(83, 15, 69);
+        }
+
+
+        .language-table {
+            width: 70%;
+            margin: auto;
+            margin-top: 40px;
+            border-collapse: collapse;
+            border-spacing: 0px;
+
+
+        }
+
+        .language-table th,
+        td {
+            border: 1px solid #65594D;
+        }
+
+        th {
+            background-color: rgba(219, 129, 200, 0.274);
+            height: 2em;
+        }
+
+        .article-item ol li a {
+            font-weight: bold;
+        }
+
+        .article-item ol li a:hover {
+            text-decoration: underline;
+        }
+
+        /* CV-DETAILS ENDS */
+    
